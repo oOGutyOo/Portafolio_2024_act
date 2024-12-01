@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ct4)u6n1^c+piod)vczr*6cn4wxord!u6qgcm9r#oa-@-#eyo!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mysite-cyrf.onrender.com']
 
 
 # Application definition
@@ -126,7 +126,7 @@ USE_TZ = True
 
 #STATIC_URL = 'static/'
 STATIC_URL = '/static/'
-#STATICFILES_DIRS = [BASE_DIR / 'assets']
+STATICFILES_DIRS = [BASE_DIR / 'assets']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
